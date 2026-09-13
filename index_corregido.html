@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para mi güerita 💗</title>
+<meta name="theme-color" content="#f7a8c4">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600&display=swap');
+*{box-sizing:border-box} html{scroll-behavior:smooth}
+body{margin:0;background:#fff7fa;color:#5b3444;font-family:'DM Sans',sans-serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;background-image:radial-gradient(#f3a7c3 1px,transparent 1px);background-size:28px 28px;opacity:.12}
+h1,h2{font-family:'Playfair Display',serif}
+.hero{min-height:100vh;display:flex;align-items:center;justify-content:center;padding:30px 20px;position:relative;background:linear-gradient(145deg,#fff7fb 0%,#ffe9f1 55%,#ffd9e7 100%)}
+.hero-card{max-width:700px;text-align:center;background:rgba(255,255,255,.72);backdrop-filter:blur(12px);padding:48px 28px;border-radius:34px;box-shadow:0 20px 70px rgba(145,62,92,.12);border:1px solid rgba(255,255,255,.8)}
+.eyebrow{letter-spacing:3px;text-transform:uppercase;font-size:12px;color:#c66a8c;font-weight:600}
+h1{font-size:clamp(45px,10vw,82px);line-height:.98;margin:14px 0;color:#9e4569}
+.subtitle{font-size:18px;line-height:1.7;max-width:540px;margin:0 auto 30px;color:#704456}
+.btn{display:inline-block;border:0;background:#d96891;color:white;padding:15px 25px;border-radius:999px;text-decoration:none;font-weight:600;box-shadow:0 10px 25px rgba(217,104,145,.25);cursor:pointer;transition:.25s}
+.btn:hover{transform:translateY(-2px)}
+.heart{font-size:42px;animation:beat 1.7s infinite}@keyframes beat{50%{transform:scale(1.12)}}
+section{padding:80px 20px;max-width:1050px;margin:auto}
+.section-title{text-align:center;font-size:40px;margin:0 0 12px;color:#9e4569}
+.section-sub{text-align:center;margin:0 auto 38px;color:#86606e}
+.counter{display:grid;grid-template-columns:repeat(4,1fr);gap:12px;max-width:720px;margin:30px auto 0}
+.unit{background:white;border-radius:22px;padding:22px 10px;box-shadow:0 10px 30px rgba(145,62,92,.09)}
+.num{display:block;font-family:'Playfair Display',serif;font-size:36px;color:#c9577f}
+.label{font-size:12px;text-transform:uppercase;letter-spacing:1.5px;color:#9d7b87}
+.gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+.gallery img{width:100%;height:340px;object-fit:cover;border-radius:24px;box-shadow:0 8px 25px rgba(100,40,65,.10);transition:.3s;cursor:pointer}
+.gallery img:hover{transform:scale(1.015)}
+.gallery img:nth-child(4),.gallery img:nth-child(7){height:430px}
+.letter-wrap{max-width:760px;margin:auto}
+.letter{background:#fff;border-radius:30px;padding:38px 34px;box-shadow:0 15px 45px rgba(145,62,92,.10);line-height:1.9;font-size:17px;white-space:pre-line}
+.signature{text-align:right;font-family:'Playfair Display',serif;font-size:24px;color:#b44f75;margin-top:20px}
+.secret{text-align:center;background:linear-gradient(135deg,#fff,#ffe8f1);border-radius:30px;padding:45px 25px;box-shadow:0 15px 45px rgba(145,62,92,.08)}
+#secretMessage{display:none;margin:28px auto 0;max-width:650px;font-family:'Playfair Display',serif;font-size:25px;line-height:1.6;color:#a4466b}
+footer{text-align:center;padding:60px 20px 80px;color:#a27586}
+.modal{display:none;position:fixed;z-index:20;inset:0;background:rgba(60,20,35,.82);align-items:center;justify-content:center;padding:20px}
+.modal img{max-width:95vw;max-height:88vh;border-radius:20px;object-fit:contain}
+.close{position:fixed;top:20px;right:25px;color:white;font-size:35px;cursor:pointer}
+.floating{position:fixed;bottom:-20px;font-size:22px;animation:float 7s linear infinite;opacity:.65;z-index:0}@keyframes float{to{transform:translateY(-110vh) rotate(360deg);opacity:0}}
+@media(max-width:700px){section{padding:62px 16px}.counter{grid-template-columns:repeat(2,1fr)}.gallery{grid-template-columns:repeat(2,1fr);gap:10px}.gallery img,.gallery img:nth-child(4),.gallery img:nth-child(7){height:250px}.gallery img:nth-child(3){grid-column:span 2;height:340px}.letter{padding:28px 22px;font-size:16px}.section-title{font-size:34px}}
+</style>
+</head>
+<body>
+<div class="floating" style="left:8%;animation-delay:0s">♡</div>
+<div class="floating" style="left:24%;animation-delay:2s">♡</div>
+<div class="floating" style="left:55%;animation-delay:1s">♡</div>
+<div class="floating" style="left:82%;animation-delay:4s">♡</div>
+
+<header class="hero">
+  <div class="hero-card">
+    <div class="heart">♡</div>
+    <div class="eyebrow">Una pequeña sorpresa para ti</div>
+    <h1>Mi güerita</h1>
+    <p class="subtitle">Barbara, mi osita… hice este pequeño rincón para recordarte lo especial que eres para mí.</p>
+    <a class="btn" href="#tiempo">Abrir nuestra historia 💗</a>
+  </div>
+</header>
+
+<section id="tiempo">
+  <h2 class="section-title">Nuestro tiempo juntos</h2>
+  <p class="section-sub">Desde el 15 de agosto de 2026, cada segundo cuenta.</p>
+  <div class="counter">
+    <div class="unit"><span class="num" id="days">0</span><span class="label">Días</span></div>
+    <div class="unit"><span class="num" id="hours">0</span><span class="label">Horas</span></div>
+    <div class="unit"><span class="num" id="mins">0</span><span class="label">Minutos</span></div>
+    <div class="unit"><span class="num" id="secs">0</span><span class="label">Segundos</span></div>
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Mis recuerdos favoritos</h2>
+  <p class="section-sub">Algunos pedacitos de nosotros que quiero guardar para siempre.</p>
+  <div class="gallery">
+    <img src="foto 1.jpeg" alt="Barbara" onclick="openImg(this.src)">
+    <img src="foto 2.jpeg" alt="Barbara" onclick="openImg(this.src)">
+    <img src="foto 3.jpeg" alt="Barbara" onclick="openImg(this.src)">
+    <img src="foto 4.jpeg" alt="Nosotros" onclick="openImg(this.src)">
+    <img src="foto 5.jpeg" alt="Nosotros" onclick="openImg(this.src)">
+    <img src="foto 6.jpeg" alt="Nosotros" onclick="openImg(this.src)">
+    <img src="foto 7.jpeg" alt="Nuestro recuerdo" onclick="openImg(this.src)">
+    <img src="foto 8.jpeg" alt="Nuestro recuerdo" onclick="openImg(this.src)">
+    <img src="foto 9.jpeg" alt="Nuestro recuerdo" onclick="openImg(this.src)">
+    <img src="foto 10.jpeg" alt="Nuestro recuerdo" onclick="openImg(this.src)">
+  </div>
+</section>
+
+<section>
+  <h2 class="section-title">Una carta para ti 💌</h2>
+  <div class="letter-wrap">
+    <div class="letter">Mi güerita,
+
+Quería hacer algo diferente para nuestro aniversario. Algo que pudieras abrir desde donde estés y que, por un momento, te hiciera sentir un poquito más cerca de mí.
+
+No importa cuántos kilómetros haya entre nosotros; hay cosas que la distancia simplemente no puede cambiar. Una de ellas es todo lo que significas para mí.
+
+Gracias por cada momento, por cada sonrisa, por cada abrazo y por todos esos pequeños detalles que hacen que quererte se sienta tan bonito.
+
+Mi osita, quiero seguir llenando esta página de recuerdos contigo, pero sobre todo quiero seguir llenando nuestra historia de momentos que algún día podamos mirar atrás y recordar con una sonrisa.
+
+Feliz aniversario, mi amor. ❤️
+
+Te quiero muchísimo y espero que cuando mires estas fotos recuerdes lo mismo que yo: que cada uno de estos momentos vale muchísimo para mí.
+
+Con todo mi amor,</div>
+    <div class="signature">Tu niño 💗</div>
+  </div>
+</section>
+
+<section>
+  <div class="secret">
+    <h2 class="section-title">Para cuando me extrañes 🌙</h2>
+    <p>Hay un mensajito escondido aquí…</p>
+    <button class="btn" onclick="reveal()">Abrir mi mensaje</button>
+    <div id="secretMessage">Cierra los ojos un momento, mi osita. Imagíname abrazándote muy fuerte. No importa la distancia: aquí estoy, queriéndote. 💗</div>
+  </div>
+</section>
+
+<footer>
+  Hecho especialmente para Barbara Orendain · 15.08.2026<br>
+  <span style="font-size:24px">♡</span>
+</footer>
+
+<div class="modal" id="modal" onclick="closeImg()">
+  <span class="close">×</span><img id="modalImg" src="" alt="">
+</div>
+
+<script>
+const start = new Date('2026-08-15T00:00:00');
+function updateCounter(){
+  const now = new Date();
+  let diff = Math.max(0, now-start);
+  const s = Math.floor(diff/1000);
+  document.getElementById('days').textContent = Math.floor(s/86400);
+  document.getElementById('hours').textContent = Math.floor((s%86400)/3600);
+  document.getElementById('mins').textContent = Math.floor((s%3600)/60);
+  document.getElementById('secs').textContent = s%60;
+}
+updateCounter(); setInterval(updateCounter,1000);
+function reveal(){document.getElementById('secretMessage').style.display='block';}
+function openImg(src){document.getElementById('modalImg').src=src;document.getElementById('modal').style.display='flex';}
+function closeImg(){document.getElementById('modal').style.display='none';}
+</script>
+</body>
+</html>
